@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- String related to app -->
+    <string name="app_name">Fingerprint 2</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_logout">Log Out</string>
+    <string name="action_clear_map">Clear Cache</string>
+    <string name="action_exit">Exit</string>
+    <string name="title_activity_maplist">MaplistActivity</string>
+    <string name="title_activity_settings">Setting</string>
+    <string name="title_activity_main_menu">MainMenuActivity</string>
+    <string name="title_activity_map_view">MapViewActivity</string>
+    <string name="terms">Terms and Conditions</string>
+    <string name="shared_preferences_name">shared_prefer</string>
+    <string name="default_url">http://54.221.214.250</string>
+    <string name="map_lists">Change Location</string>
+    <string name="buildings">Current Location</string>
+    <string name="review_log">Collected Scans</string>
+    <string name="upload_log">Submit Logs</string>
+    <string name="scan_start">Start Scan</string>
+    <string name="scan_stop">Stop Scan</string>
+    <string name="scan_save">Save</string>
+    <string name="scan_clear">Clear</string>
+    <string name="scan_show_logs">Show Logs</string>
+    <string name="scan_running">Scanning..</string>
+    <string name="map_view_home">Home</string>
+    <string name="map_view_confirm_home_title">Return Home?</string>
+    <string name="map_view_confirm_home_text">Are you sure you want to exit and return to the main menu?</string>
+    <string name="map_view_confirm_clear_title">Clear scan?</string>
+    <string name="map_view_confirm_clear_text">Do you really want to clear data? All unsaved data would be lost!</string>
+    <string name="confirm_clear_cache_title">Clear Cache?</string>
+    <string name="confirm_clear_cache_text">Are you sure you want to clear cache of all stored maps?</string>
+    <string name="map_info">building name</string>
+    <string name="select_state">Select State</string>
+    <string name="select_building">Select Building</string>
+    <string name="select_floor">Select Floor</string>
+    <string name="check_save_1">All current data will be saved to </string>
+    <string name="check_save_2">Are you sure all the data are correct?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="ok">OK</string>
+    <string name="clear_memory_cache">Clear Cache on Memory</string>
+    <string name="clear_sdcard_cache">Clear Cache on SD Card</string>
+    <string name="sort_by">Sort By: </string>
+    <string name="msg_alert_connection">Network is not enabled!</string>
+    <string name="msg_dialog_loading">Loading</string>
+    <string name="msg_alert">Alert</string>
+    <string name="msg_error">Error</string>
+    <string name="msg_success">Success</string>
+    <string name="msg_success_network">Selected logs submitted to server succussfully!</string>
+    <string name="msg_error_network_401">HTTP Error 401 - Unauthorized</string>
+    <string name="msg_error_network_500">HTTP Error 500 - Server Error</string>
+    <string name="msg_error_login_fail">Unable to Login</string>
+    <string name="msg_error_network_unknown">Network Error!</string>
+
+    <!-- Strings related to login -->
+    <string name="title_activity_login">Sign in</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_customer_id">Customer ID</string>
+    <string name="prompt_developer_id">Developer ID</string>
+    <string name="prompt_server_url">Server URL</string>
+    <string name="default_server_url">http://</string>
+    <string name="action_sign_in">Log in</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_forgot_password">Recover lost password</string>
+    <string name="login_progress_signing_in">Signing in&#8230;</string>
+    <string name="error_invalid_username">This email address is invalid</string>
+    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_incorrect_password">This password is incorrect</string>
+    <string name="error_field_required">This field is required</string>
+    <string name="login_facebook">Login with Facebook</string>
+    <string name="login_fingerprint2">Login with Fingerprint2</string>
+
+    <!-- url -->
+    <string name="submit_log_url">/logs/pars/</string>
+    <string name="plans_url">/plans/</string>
+
+    <!-- review log files options -->
+    <string name="review_on_text">Review in Text</string>
+    <string name="review_on_map">Review on map</string>
+    <string name="send_to_server">Send to server</string>
+    <string name="send_email">Send by email</string>
+    <string name="rename_file">Rename</string>
+    <string name="delete_file">Delete</string>
+    <string name="log_filter">Log Filter: </string>
+    <string name="multiple_submit">Submit Selected</string>
+    <string name="multiple_selection">Multiple Selection</string>
+
+    <!-- messages -->
+    <string name="msg_map_2points_required">Please set a second marker.</string>
+    <string name="msg_map_notification_points">Please set your current position and continue your actions.</string>
+    <string name="msg_login_user">Username</string>
+    <string name="msg_login_pass">Password</string>
+    <string name="msg_login_customer_id">Customer ID</string>
+    <string name="msg_login_developer_id">Developer ID</string>
+    <string name="msg_login_incorrect">Wrong login or password</string>
+    <string name="msg_alert_wifi_title">Wi-Fi is not enabled!</string>
+    <string name="msg_customer_id_empty">Customer ID can not be empty</string>
+    <string name="msg_developer_id_empty">Developer ID can not be empty</string>
+    <string name="msg_teh_error">Technical Errors Occurred</string>
+    <string name="msg_session_invalid">Session is probably expired. Please resign in an application. </string>
+    <string name="msg_log_nocount">No Logs</string>
+    <string name="msg_nothing_checked">Nothing checked</string>
+    <string name="msg_dialog_wifi_scanning">Scanning Wi-Fi</string>
+    <string name="msg_market_is_null">Please set your location on the map.</string>
+    <string name="msg_sd_card_disabled ">This program requires SD Card. Please insert it and try again.</string>
+    <string name="msg_basefolder_exists">We found scanning logs on SD Card. Would you like to delete them?</string>
+    <string name="msg_system_logout">Logout</string>
+    <string name="msg_operation_failed">The operation failed.</string>
+    <string name="msg_internet_mobile_detected">Mobile Internet Connection was detected. Would you like to turn off mobile internet?</string>
+    <string name="msg_internet_mobile_turnon">Would you like to turn Mobile Internet Connection on?</string>
+    <string name="msg_connections_turnon">Would you like to turn Active Internet Connections on?</string>
+    <string name="msg_connections_turnoff">Would you like to turn Active Internet Connections off?</string>
+
+    <!-- Strings related to Settings -->
+    <string name="pref_header_general">General</string>
+    <string name="pref_title_cache_map">Enable Offline Map</string>
+    <string name="pref_description_cache_map">Store map offline to get your location without network connection.</string>
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+    <string name="pref_title_scan_frequency">Scan Frequency</string>
+    <string name="pref_title_website">Website</string>
+    <string name="pref_summary_website">Visit our homepage</string>
+    <string name="lighthouse_website">http://lighthousesignal.com/</string>
+
+    <string-array name="pref_scan_frequency_titles">
+        <item>1s</item>
+        <item>2s</item>
+        <item>3s</item>
+    </string-array>
+    <string-array name="pref_scan_frequency_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+</resources>

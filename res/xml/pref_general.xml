@@ -1,0 +1,38 @@
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <CheckBoxPreference
+        android:defaultValue="true"
+        android:key="checkbox_cache_map"
+        android:summary="@string/pref_description_cache_map"
+        android:title="@string/pref_title_cache_map" />
+
+    <!-- NOTE: EditTextPreference accepts EditText attributes. -->
+    <!-- NOTE: EditTextPreference's summary should be set to its value by the activity code. -->
+    <EditTextPreference
+        android:capitalize="words"
+        android:defaultValue="@string/pref_default_display_name"
+        android:inputType="textCapWords"
+        android:key="example_text"
+        android:maxLines="1"
+        android:selectAllOnFocus="true"
+        android:singleLine="true"
+        android:title="@string/pref_title_display_name" />
+
+    <ListPreference
+        android:defaultValue="1"
+        android:entries="@array/pref_scan_frequency_titles"
+        android:entryValues="@array/pref_scan_frequency_values"
+        android:key="scan_frequency"
+        android:negativeButtonText="@null"
+        android:positiveButtonText="@null"
+        android:title="@string/pref_title_scan_frequency" />
+
+    <Preference
+        android:summary="@string/pref_summary_website"
+        android:title="@string/pref_title_website" >
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="@string/lighthouse_website" />
+    </Preference>
+
+</PreferenceScreen>
